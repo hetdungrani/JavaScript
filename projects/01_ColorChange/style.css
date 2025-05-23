@@ -1,0 +1,40 @@
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgba(0, 0, 0, 0.466);
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#white{
+    background-color: white;
+}
+#black{ 
+    background-color: black;
+}
+#grey{
+    background-color: grey;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+
+.box:hover{
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+}
