@@ -1,0 +1,23 @@
+h1 {
+    font-size: 40px;
+}
+
+.display {
+    height: 80px;
+    width: 300px;
+    background-color: rgba(233, 173, 42, 0.76);
+    color: white;
+    border-radius: 40px;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #212121;
+    color: white;
+}
+h1:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.699);
+}
